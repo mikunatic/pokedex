@@ -20,7 +20,7 @@ const Header = () => {
     <div className='header'>
       {regionData.map((region) => (
         <div key={region.name}>
-          <p>{region.name.charAt(0).toUpperCase() + region.name.slice(1)}</p>
+          <p className='pokeregion'>{region.name.charAt(0).toUpperCase() + region.name.slice(1)}</p>
         </div>
       ))}
     </div>

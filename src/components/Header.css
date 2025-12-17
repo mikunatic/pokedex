@@ -3,11 +3,12 @@
   height: var(--header-height);
   top: 0px;
   position: fixed;
+  z-index: 100;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
 }
 
-p {
+.pokeregion {
   color: white;
 }

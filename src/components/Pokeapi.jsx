@@ -24,11 +24,11 @@ const Pokeapi = () => {
   }, [])
 
   return (
-    <div className="pokecard">
+    <div className="pokegrid">
       {pokemonList.map((pokemon) => (
         <div key={pokemon.name}>
           <img src={pokemon.sprites.front_default}></img>
-          <p>{pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)}</p>
+          <p className='pokecard'>{pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)}</p>
         </div>
       ))}
     </div>
