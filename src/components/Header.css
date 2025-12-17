@@ -1,4 +1,13 @@
 .header {
   background-color: #440201;
-  height: 100px;
+  height: var(--header-height);
+  top: 0px;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+p {
+  color: white;
 }
