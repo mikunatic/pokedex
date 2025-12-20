@@ -1,5 +1,5 @@
 .header {
-  background-color: #440201;
+  background-color: #730602; /* 440201 */
   height: var(--header-height);
   top: 0px;
   position: fixed;
@@ -9,6 +9,13 @@
   justify-content: space-evenly;
 }
 
+.header > div {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .pokeregion {
   color: white;
+  background-color: #440201;
 }
+
